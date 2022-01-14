@@ -9,10 +9,10 @@ const NewsFeed = () => {
 
           const options = {
             method: 'GET',
-            url: 'https://crypto-news-live.p.rapidapi.com/news',
+            url: 'https://crypto-news-live3.p.rapidapi.com/news',
             headers: {
-              'x-rapidapi-host': 'crypto-news-live.p.rapidapi.com',
-              'x-rapidapi-key': 'e3470193dfmsh901755f2c4fefdbp1605d2jsneb06bc3895eb'
+              'x-rapidapi-host': 'crypto-news-live3.p.rapidapi.com',
+              'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY
             }
           };
 
